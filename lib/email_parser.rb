@@ -15,8 +15,8 @@ end
 def parse
 split_emails = emails.split(/,?\s+/)
 split_emails.each do |emails|
-  if parsed_emails.include?(email)
-    parsed_emails << email
+  if parsed_emails.include?(emails)
+    parsed_emails << emails
   end
 end
 parsed_emails
