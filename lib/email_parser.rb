@@ -8,7 +8,7 @@ attr_accessor :emails, :parsed_emails
 
 def initialize
 @emails = emails
-@parsed_emails= parsed_emails
+@parsed_emails= []
 end
 
 
