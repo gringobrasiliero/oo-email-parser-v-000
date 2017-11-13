@@ -22,6 +22,3 @@ end
 parsed_emails
 end
 end
-
-
-
